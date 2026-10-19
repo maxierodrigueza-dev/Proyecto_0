@@ -1,5 +1,4 @@
 from funciones_smn import leer_observaciones, cantidad_ciudades_leidas, cantidad_ciudades_completas, mostrar_resumen
-import datetime
 import sys
 from pathlib import Path
 import json
