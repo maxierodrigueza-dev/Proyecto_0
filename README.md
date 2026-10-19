@@ -13,11 +13,12 @@ Herramienta en Python para procesar y analizar observaciones meteorológicas del
 
 ## Enlaces de Interés
 
-* [Sitio oficial del SMN - Descarga de datos](https://www.google.com/search?q=https://www.smn.gob.ar/descarga-de-datos&utm_source=gemini)
+- [Sitio oficial del SMN - Descarga de datos](https://www.google.com/search?q=https://www.smn.gob.ar/descarga-de-datos&utm_source=gemini)
 
 
-*  **Ejemplo de ejecución en terminal:**
+## Ejemplo de ejecución en terminal
 
+```text
 --- Resumen Meteorológico ---
 Cantidad total de ciudades leídas: 121
 Ciudades con toda la información: 25
@@ -29,7 +30,7 @@ Top 5 ciudades más cálidas:
 - Tartagal: 26.4°C
 - Resistencia: 26.3°C
 
-Top 5 ciudades más frias:
+Top 5 ciudades más frías:
 - Base Belgrano II: -28.6°C
 - Base San Martín: -24.8°C
 - Base Orcadas: -24.3°C
@@ -61,18 +62,4 @@ Horarios reportados:
 
 Información faltante:
 Ciudades sin toda la información: 96
-Sensación térmica (°C): ['Azul', 'Bahía Blanca', 'Benito Juárez', 'Bolívar', 'Campo de Mayo', 'Coron
-el Suarez', 'Dolores', 'El Palomar', 'Ezeiza', 'Junín', 'La Plata', 'Las Flores', 'Mar del Plata', '
-Mariano Moreno', 'Merlo', 'Morón', 'Nueve de Julio', 'Olavarría', 'Pehuajó', 'Pigué', 'Punta Indio B
-.A.', 'San Fernando', 'Tandil', 'Trenque Lauquen', 'Tres Arroyos', 'Villa Gesell', 'Aeroparque Bueno
-s Aires', 'Buenos Aires', 'Catamarca', 'Tinogasta', 'Puerto Madryn', 'Trelew', 'Córdoba', 'Córdoba O
-bservatorio', 'Esc. Aviación Militar', 'Laboulaye', 'Marcos Juárez', 'Pilar Obs.', 'Río Cuarto', 'Vi
-lla Dolores', 'Villa María Del Río Seco', 'Corrientes', 'Ituzaingó', 'Mercedes', 'Monte Caseros', 'P
-aso De Los Libres', 'Concordia', 'Gualeguaychú', 'Paraná', 'Formosa', 'La Quiaca', 'Jujuy', 'Jujuy U
-niversidad Nacional', 'General Pico', 'Victorica', 'Santa Rosa', 'Chamical', 'Chepes', 'Chilecito',
-'La Rioja', 'Malargue', 'Mendoza', 'Mendoza Observatorio', 'San Martín (Mza)', 'San Rafael', 'Uspall
-ata', 'Bernardo De Irigoyen', 'Iguazú', 'Oberá', 'Posadas', 'Neuquén', 'Cipolletti', 'El Bolsón', 'M
-aquinchao', 'Río Colorado', 'Viedma', 'Metán', 'Salta', 'Jachal', 'San Juan', 'San Luis', 'Santa Ros
-a del Conlara', 'Villa Reynolds', 'Gobernador Gregores', 'Ceres', 'Rafaela', 'Reconquista', 'Rosario
-', 'Santa Fe', 'Sunchales', 'Venado Tuerto', 'Termas de Rio Hondo', 'Santiago del Estero', 'Tucumán'
-, 'Base Esperanza', 'Base Carlini']
+Sensación térmica (°C): Azul, Bahía Blanca, Benito Juárez, Bolívar, Campo de Mayo, Coronel Suarez, Dolores, El Palomar, Ezeiza, Junín, La Plata, Las Flores, Mar del Plata, Mariano Moreno, Merlo, Morón, Nueve de Julio, Olavarría, Pehuajó, Pigué, Punta Indio B.A., San Fernando, Tandil, Trenque Lauquen, Tres Arroyos, Villa Gesell, Aeroparque Buenos Aires, Buenos Aires, Catamarca, Tinogasta, Puerto Madryn, Trelew, Córdoba, Córdoba Observatorio, Esc. Aviación Militar, Laboulaye, Marcos Juárez, Pilar Obs., Río Cuarto, Villa Dolores, Villa María Del Río Seco, Corrientes, Ituzaingó, Mercedes, Monte Caseros, Paso De Los Libres, Concordia, Gualeguaychú, Paraná, Formosa, La Quiaca, Jujuy, Jujuy Universidad Nacional, General Pico, Victorica, Santa Rosa, Chamical, Chepes, Chilecito, La Rioja, Malargue, Mendoza, Mendoza Observatorio, San Martín (Mza), San Rafael, Uspallata, Bernardo De Irigoyen, Iguazú, Oberá, Posadas, Neuquén, Cipolletti, El Bolsón, Maquinchao, Río Colorado, Viedma, Metán, Salta, Jachal, San Juan, San Luis, Santa Rosa del Conlara, Villa Reynolds, Gobernador Gregores, Ceres, Rafaela, Reconquista, Rosario, Santa Fe, Sunchales, Venado Tuerto, Termas de Rio Hondo, Santiago del Estero, Tucumán, Base Esperanza, Base Carlini.
