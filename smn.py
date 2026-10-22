@@ -24,6 +24,10 @@ if __name__ == '__main__':
         # Verificar si es .txt o .json
         if ruta_archivo.suffix == ".txt":
 
+            # Se esta creando el archivo...
+            print('archivo del SMN, convirtiendo a json...')
+            salida = Path("obs_json")
+
             #Creacion de las dos variables
             diccionario_final, lineas_invalidas = leer_observaciones(ruta_archivo)
 
@@ -36,23 +40,26 @@ if __name__ == '__main__':
                 # Sobreescribo el resultado de "Fecha" para que el Json lo acepte
                 valores["Fecha"] = valores["Fecha"].isoformat(timespec='minutes')
 
-
-            salida = Path("obs_json")
-            print('archivo del SMN, convirtiendo a json...')
-
             if salida.exists():
                 print("Ya existe el directorio")
             else:
-                salida.mkdir(parents=True, exist_ok=True) # creo archivo
                 print('el directorio obs_json no existe, creándolo...')
+                salida.mkdir(parents=True, exist_ok=True) # creo archivo
+                
             
             ruta = salida / f"{ruta_archivo.stem}.json"
 
+
+            # Guardar archivo en ruta
             with open(ruta, "w", encoding="utf-8") as archivo:
                 json.dump(diccionario_final, archivo, ensure_ascii=False, indent=2)
-
+                
+            print(f"Archivo guardado exitosamente en {ruta}")
            
-            mostrar_resumen(diccionario_final)
+            
+            print(f"Ciudades totales: {cantidad_ciudades_leidas(diccionario_final)}")
+            print(f"Ciudades completas: {cantidad_ciudades_completas(diccionario_final)}")
+
 
         elif ruta_archivo.suffix == ".json":
             with open(ruta_archivo, "r", encoding="utf-8") as archivo:
