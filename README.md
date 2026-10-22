@@ -13,8 +13,21 @@ Herramienta en Python para procesar y analizar observaciones meteorológicas del
 
 ## Enlaces de Interés
 
-- [Sitio oficial del SMN - Descarga de datos](https://www.google.com/search?q=https://www.smn.gob.ar/descarga-de-datos&utm_source=gemini)
+- [Sitio oficial del SMN - Descarga de datos](https://www.smn.gob.ar/descarga-de-datos)
 
+## Preparación de los datos
+
+1. Ingresá al sitio del SMN desde el enlace provisto arriba y descargá el archivo con los datos meteorológicos (`.rar` o `.zip`).
+2. Creá una carpeta llamada `datos` en el directorio principal de este proyecto.
+3. Extraé los archivos de texto (`.txt`) del archivo comprimido y guardalos dentro de la carpeta `datos`.
+
+## Ejecución
+
+Para procesar un archivo, abrí la terminal en la carpeta del proyecto y ejecutá el siguiente comando:
+
+```bash
+python analisis_smn.py datos/nombre_archivo.txt
+```
 
 ## Ejemplo de ejecución en terminal
 
@@ -63,3 +76,4 @@ Horarios reportados:
 Información faltante:
 Ciudades sin toda la información: 96
 Sensación térmica (°C): Azul, Bahía Blanca, Benito Juárez, Bolívar, Campo de Mayo, Coronel Suarez, Dolores, El Palomar, Ezeiza, Junín, La Plata, Las Flores, Mar del Plata, Mariano Moreno, Merlo, Morón, Nueve de Julio, Olavarría, Pehuajó, Pigué, Punta Indio B.A., San Fernando, Tandil, Trenque Lauquen, Tres Arroyos, Villa Gesell, Aeroparque Buenos Aires, Buenos Aires, Catamarca, Tinogasta, Puerto Madryn, Trelew, Córdoba, Córdoba Observatorio, Esc. Aviación Militar, Laboulaye, Marcos Juárez, Pilar Obs., Río Cuarto, Villa Dolores, Villa María Del Río Seco, Corrientes, Ituzaingó, Mercedes, Monte Caseros, Paso De Los Libres, Concordia, Gualeguaychú, Paraná, Formosa, La Quiaca, Jujuy, Jujuy Universidad Nacional, General Pico, Victorica, Santa Rosa, Chamical, Chepes, Chilecito, La Rioja, Malargue, Mendoza, Mendoza Observatorio, San Martín (Mza), San Rafael, Uspallata, Bernardo De Irigoyen, Iguazú, Oberá, Posadas, Neuquén, Cipolletti, El Bolsón, Maquinchao, Río Colorado, Viedma, Metán, Salta, Jachal, San Juan, San Luis, Santa Rosa del Conlara, Villa Reynolds, Gobernador Gregores, Ceres, Rafaela, Reconquista, Rosario, Santa Fe, Sunchales, Venado Tuerto, Termas de Rio Hondo, Santiago del Estero, Tucumán, Base Esperanza, Base Carlini.
+```
