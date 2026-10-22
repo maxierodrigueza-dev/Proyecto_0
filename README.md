@@ -31,8 +31,6 @@ python analisis_smn.py datos/nombre_archivo.txt
 
 ## Ejemplo de ejecución en terminal
 
-## Ejemplo de ejecución en terminal
-
 ```text
 archivo del SMN, convirtiendo a json...
 Parseando Fecha a Json...
