@@ -26,7 +26,7 @@ Herramienta en Python para procesar y analizar observaciones meteorológicas del
 Para procesar un archivo, abrí la terminal en la carpeta del proyecto y ejecutá el siguiente comando:
 
 ```bash
-python analisis_smn.py datos/nombre_archivo.txt
+python smn.py datos/nombre_archivo.txt
 ```
 
 ## Ejemplo de ejecución en terminal
